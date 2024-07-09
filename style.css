@@ -1,0 +1,125 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures full height of viewport */
+}
+
+#logo {
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+
+#logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+#logo span {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+#title h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto; /* Centering the form */
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="file"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+fieldset {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.radio-buttons label {
+    margin-right: 10px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+.attachment-section {
+    display: none;
+    margin-top: 20px;
+}
+
+#SignUp {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#SignUp button {
+    background-color: #381691;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+}
+
+#SignUp p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 0.9em;
+}
